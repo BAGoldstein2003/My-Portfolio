@@ -77,7 +77,7 @@ function App() {
           <div className="experience-item">
             <h3>Lead Backend Developer Intern</h3>
             <h4>Hawl Technologies</h4>
-            <h4 class="date">August 2025 - Present</h4>
+            <h4 className="date">August 2025 - Present</h4>
             <ul>
               {
                 experienceBullets.map((bullet, index) => {
