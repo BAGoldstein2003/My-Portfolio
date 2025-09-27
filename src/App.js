@@ -81,7 +81,7 @@ function App() {
             <ul>
               {
                 experienceBullets.map((bullet, index) => {
-                  return <li class="experience-bullet" key={index}>{bullet}</li>
+                  return <li className="experience-bullet" key={index}>{bullet}</li>
                 })
               }
             </ul>
